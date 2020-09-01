@@ -11,7 +11,6 @@
 		B00915C524D9906F00A19EAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00915C424D9906F00A19EAE /* SceneDelegate.swift */; };
 		B00915C724D9906F00A19EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00915C624D9906F00A19EAE /* ViewController.swift */; };
 		B00915CA24D9906F00A19EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00915C824D9906F00A19EAE /* Main.storyboard */; };
-		B00915CC24D9907000A19EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00915CB24D9907000A19EAE /* Assets.xcassets */; };
 		B00915CF24D9907000A19EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00915CD24D9907000A19EAE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		B00915C424D9906F00A19EAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B00915C624D9906F00A19EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B00915C924D9906F00A19EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B00915CB24D9907000A19EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00915CE24D9907000A19EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00915D024D9907000A19EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +58,6 @@
 				B00915C424D9906F00A19EAE /* SceneDelegate.swift */,
 				B00915C624D9906F00A19EAE /* ViewController.swift */,
 				B00915C824D9906F00A19EAE /* Main.storyboard */,
-				B00915CB24D9907000A19EAE /* Assets.xcassets */,
 				B00915CD24D9907000A19EAE /* LaunchScreen.storyboard */,
 				B00915D024D9907000A19EAE /* Info.plist */,
 			);
@@ -126,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00915CF24D9907000A19EAE /* LaunchScreen.storyboard in Resources */,
-				B00915CC24D9907000A19EAE /* Assets.xcassets in Resources */,
 				B00915CA24D9906F00A19EAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,9 +279,10 @@
 		B00915D424D9907000A19EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HJR6LL3WM;
 				INFOPLIST_FILE = MapKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,9 +297,10 @@
 		B00915D524D9907000A19EAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HJR6LL3WM;
 				INFOPLIST_FILE = MapKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
